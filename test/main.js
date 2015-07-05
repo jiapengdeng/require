@@ -1,0 +1,9 @@
+require.config({
+    baseUrl:"./lib",
+    paths:{
+        'math':'math'
+    }
+})
+require(["math"],function(math){
+    alert(math.add(1,1));
+})
